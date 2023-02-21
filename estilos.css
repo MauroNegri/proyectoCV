@@ -1,0 +1,250 @@
+*{
+    background-color:lightsteelblue;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 1480px){
+    /* Comentario: En esta sección, utilicé muchas etiquetas "!important" debido a que al utilizar Bootstrap
+    no supe como hacer para que tome como prioridad estos cambios que quería realizar. */
+
+    /*SECCCION 1*/
+    #seccion1{
+        width: 100% !important;
+        height: 100% !important;
+        text-align: center !important;
+        
+    }
+
+    #Titulo-principal{
+        font-size:250% !important;
+    }
+
+    #Imagen{
+        width: 30% !important;
+    }
+
+    .Titulo-sec1{
+        font-size: 180% !important;
+        margin-left:-5%;
+        padding-left:5%;
+    }
+
+    .datos-nombre{
+        font-size:130% !important;
+    }
+    .datos-info{
+        font-size: 130% !important;
+    }
+   /* FIN SECCION 1 */
+
+    /*SECCCION 2*/
+    #seccion2{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    /* FIN SECCION 2 */
+
+    /*SECCCION 3*/
+    #seccion3{
+        width: 100% !important; 
+        height: 100% !important;
+        text-align: center;
+    }
+    #interes{
+        margin-right: 0% !important;
+        padding-top: 2% !important;
+        padding-left: 0% !important; 
+        text-align: center;
+    }
+
+    li{
+        margin-right: 0% !important;
+        padding-left: 0% !important;         
+    }
+
+    ul {
+        margin-right: 0% !important;   
+        padding-left: 0% !important; 
+    }
+     
+    #titulo_contacto{
+        margin-right: 0% !important;    
+        padding-left: 0% !important; 
+    }
+    label {
+        margin-right: 0% !important;
+        padding-top: 2% !important;
+        padding-left: 0% !important; 
+        display:block !important;
+    }
+    input{
+        position: block !important;
+    }
+    button{
+        width:-webkit-fill-available;
+    }
+    /* FIN SECCION 3 */
+}
+
+/* SECCION 1 */
+#seccion1{
+    text-align: left;
+    background-color:midnightblue;
+    font-weight: bold;
+    color: white;
+    float: left;
+    width: 380px;
+    height: 725px;
+    padding-left: 5%;
+    margin: 0px auto;
+    margin-left: -10px;
+}
+
+#Titulo-principal{
+    font-size: 35px;
+    padding-top:10px;
+    background-color: midnightblue;
+}
+
+.Titulo-sec1{
+    font-weight: bold;
+    padding-top: 20px;
+    border-bottom: 2px solid;
+    background-color: midnightblue;
+    font-size:25px;
+}
+
+.datos-nombre{
+    color:grey;
+    padding-top: 20px;
+    margin-bottom: 0%;
+    background-color:midnightblue;
+    font-size:20px;
+}
+.datos-info{
+    background-color: midnightblue;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#Imagen{
+    width: 60%;
+}
+/* FIN SECCION 1 */
+
+/*SECCCION 2*/
+#seccion2{
+    text-align:left;
+    background-color: white;
+    color: midnightblue;
+    float: left;
+}
+
+.tabla{
+    background-color: white;
+    border-collapse:separate !important;
+    color:black;
+    width: 100%;
+    font-size:small;
+}
+
+.Titulo-sec2{
+    font-size: medium;
+    border-left: 5px groove cornflowerblue;
+    background-color: lightsteelblue;
+    width: 40%;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+td{
+    text-align: center;
+    padding: 25px;
+}
+
+th{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 34.7px;
+}
+
+.ultimaFila{
+    padding-bottom: 11px;
+}
+/* FIN SECCION 2 */
+
+/*SECCCION 3*/
+#seccion3{
+    float: left;
+    background-color:lightsteelblue;
+    width: 370px;
+    height: 100%;
+}
+
+#interes{
+    background-color:lightsteelblue;
+    border-bottom: 2px solid;
+    margin-right: 30%;
+    padding-top: 5%;
+    padding-left:10%; 
+    font-size: 18px;
+}
+
+li{
+    background-color:lightsteelblue;
+    margin-right: 30%;
+}
+
+ul {
+    background-color:lightsteelblue;
+    list-style: none;
+}
+  
+form li + li {
+    margin-top: 10px;
+    background-color:lightsteelblue;
+}
+
+#titulo_contacto{
+    background-color:lightsteelblue;
+    padding-left: 10%;
+    margin-right: 30%;
+    border-bottom: 2px solid;
+    font-size: 20px;
+}
+
+label {
+    background-color:lightsteelblue;
+    text-align: center;
+    display:block;
+}
+
+input, textarea {
+    vertical-align: bottom !important;
+    position: relative !important;
+    width: 300px;
+    background-color:white;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    resize:none !important;
+    height: 120px;
+}
+
+button{
+    width: 300px;
+    background-color:white;
+}
+
+.avisos{
+    width: 200px;
+    text-align: left;
+    margin: auto;
+    color: black;
+    padding-top: 8px;
+}
+/* FIN SECCION 3 */
